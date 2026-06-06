@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abuja Precast Concrete Limited — Smart Blocks For The Future</title>
+<meta name="description" content="Abuja's leading precast concrete manufacturer. Heavy-duty blocks, precision kerb stones, and interlocking paving. Free delivery within Abuja. Nationwide delivery available. Call 08052353518.">
+<meta name="keywords" content="precast concrete Abuja, concrete blocks Abuja, interlocking paving Abuja, kerb stones Abuja, building blocks FCT, block manufacturer Abuja, precast blocks Nigeria">
+<meta property="og:title" content="Abuja Precast Concrete Limited">
+<meta property="og:description" content="Smart Blocks For The Future. Blocks, Interlocks & Kerb Stones. Serving FCT and surrounding states.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #002060;
+    --navy-deep: #001040;
+    --navy-mid: #003080;
+    --gold: #D97706;
+    --gold-light: #F59E0B;
+    --gold-pale: #FEF3C7;
+    --white: #FFFFFF;
+    --off-white: #F8F7F4;
+    --gray-100: #F3F4F6;
+    --gray-300: #D1D5DB;
+    --gray-500: #6B7280;
+    --gray-600: #4B5563;
+    --gray-800: #1F2937;
+    --concrete: #9CA3AF;
+    --success: #10B981;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--off-white);
+    color: var(--gray-800);
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.4;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(0,32,96,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(217,119,6,0.3);
+    padding: 0 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 72px;
+  }
+
+  .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+
+  .logo-mark { width: 42px; height: 42px; flex-shrink: 0; }
+  .logo-mark svg { width: 100%; height: 100%; }
+
+  .logo-text { display: flex; flex-direction: column; line-height: 1; }
+  .logo-primary { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: var(--white); letter-spacing: 2px; }
+  .logo-sub { font-family: 'Space Mono', monospace; font-size: 8px; color: var(--gold); letter-spacing: 3px; text-transform: uppercase; }
+
+  .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.7); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-cta { background: var(--gold); color: var(--navy) !important; padding: 10px 20px; font-weight: 700 !important; }
+  .nav-cta:hover { background: var(--gold-light) !important; color: var(--navy) !important; }
+
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+  .hamburger span { width: 24px; height: 2px; background: var(--white); display: block; }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    background: var(--navy-deep);
+    position: relative;
+    display: flex; align-items: center;
+    overflow: hidden;
+    padding: 120px 5% 80px;
+  }
+
+  .hero-grid-bg {
+    position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(217,119,6,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(217,119,6,0.06) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .hero-accent { position: absolute; right: -100px; top: 50%; transform: translateY(-50%); width: 600px; height: 600px; background: radial-gradient(circle, rgba(217,119,6,0.15) 0%, transparent 70%); pointer-events: none; }
+  .hero-accent-2 { position: absolute; left: 30%; bottom: -200px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(0,48,128,0.8) 0%, transparent 70%); pointer-events: none; }
+
+  .hero-content { position: relative; z-index: 2; max-width: 700px; }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(217,119,6,0.15); border: 1px solid rgba(217,119,6,0.4);
+    padding: 6px 16px; margin-bottom: 32px;
+    font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 3px; color: var(--gold); text-transform: uppercase;
+  }
+
+  .hero-badge::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1}50%{opacity:0.3} }
+
+  .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(60px,10vw,110px); line-height: 0.9; color: var(--white); letter-spacing: 2px; margin-bottom: 24px; }
+  .hero-title span { color: var(--gold); display: block; }
+
+  .hero-sub { font-size: 18px; line-height: 1.7; color: rgba(255,255,255,0.65); max-width: 520px; margin-bottom: 48px; font-weight: 300; }
+
+  .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+
+  .btn-primary { background: var(--gold); color: var(--navy); padding: 16px 36px; font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; display: inline-block; transition: all 0.2s; border: 2px solid var(--gold); cursor: pointer; }
+  .btn-primary:hover { background: var(--gold-light); border-color: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(217,119,6,0.4); }
+
+  .btn-secondary { background: transparent; color: var(--white); padding: 16px 36px; font-family: 'Space Mono', monospace; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; display: inline-block; transition: all 0.2s; border: 2px solid rgba(255,255,255,0.3); cursor: pointer; }
+  .btn-secondary:hover { border-color: var(--white); background: rgba(255,255,255,0.05); }
+
+  .hero-stats { position: absolute; right: 5%; bottom: 80px; display: flex; flex-direction: column; gap: 32px; z-index: 2; }
+  .stat-item { text-align: right; border-right: 2px solid var(--gold); padding-right: 20px; }
+  .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: var(--white); line-height: 1; }
+  .stat-label { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 2px; color: var(--gold); text-transform: uppercase; }
+
+  /* ── SECTIONS ── */
+  section { padding: 100px 5%; }
+
+  .section-tag { font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 4px; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 12px; }
+  .section-tag::before { content: ''; width: 32px; height: 1px; background: var(--gold); }
+  .section-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px,6vw,72px); color: var(--navy); line-height: 1; letter-spacing: 1px; margin-bottom: 16px; }
+  .section-lead { font-size: 17px; color: var(--gray-600); line-height: 1.8; max-width: 560px; font-weight: 300; }
+
+  /* ── PRODUCTS ── */
+  #products { background: var(--white); }
+
+  .products-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 64px; flex-wrap: wrap; gap: 24px; }
+
+  .product-tabs { display: flex; gap: 0; border: 1px solid var(--gray-300); overflow: hidden; flex-wrap: wrap; }
+  .tab-btn { padding: 12px 24px; font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; border: none; background: transparent; color: var(--gray-600); cursor: pointer; transition: all 0.2s; border-right: 1px solid var(--gray-300); }
+  .tab-btn:last-child { border-right: none; }
+  .tab-btn.active { background: var(--navy); color: var(--white); }
+  .tab-btn:hover:not(.active) { background: var(--gray-100); }
+
+  .products-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; background: var(--gray-300); border: 1px solid var(--gray-300); }
+
+  .product-card { background: var(--white); padding: 40px 32px; transition: all 0.3s; cursor: pointer; position: relative; overflow: hidden; }
+  .product-card::after { content: ''; position: absolute; bottom: 0; left: 0; height: 3px; width: 0; background: var(--gold); transition: width 0.3s; }
+  .product-card:hover { background: var(--navy-deep); }
+  .product-card:hover::after { width: 100%; }
+  .product-card:hover .product-name { color: var(--white); }
+  .product-card:hover .product-desc { color: rgba(255,255,255,0.6); }
+  .product-card:hover .product-unit { color: var(--gold); }
+  .product-card:hover .product-icon { border-color: rgba(217,119,6,0.4); background: rgba(217,119,6,0.1); }
+  .product-card:hover .product-icon svg { stroke: var(--gold); }
+
+  .product-icon { width: 52px; height: 52px; border: 1px solid var(--gray-300); display: flex; align-items: center; justify-content: center; margin-bottom: 24px; transition: all 0.3s; }
+  .product-icon svg { width: 24px; height: 24px; stroke: var(--navy); fill: none; stroke-width: 1.5; transition: stroke 0.3s; }
+  .product-category { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 2px; color: var(--gold); text-transform: uppercase; margin-bottom: 8px; }
+  .product-name { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 1px; color: var(--navy); margin-bottom: 12px; transition: color 0.3s; }
+  .product-desc { font-size: 14px; color: var(--gray-600); line-height: 1.7; margin-bottom: 20px; transition: color 0.3s; }
+  .product-unit { font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 1px; color: var(--concrete); display: flex; align-items: center; gap: 6px; transition: color 0.3s; }
+
+  /* ── BOQ ── */
+  #boq { background: var(--navy-deep); position: relative; overflow: hidden; padding-bottom: 100px; }
+  #boq::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(217,119,6,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(217,119,6,0.04) 1px, transparent 1px); background-size: 40px 40px; }
+  #boq .section-title { color: var(--white); }
+
+  .boq-intro { position: relative; z-index: 1; margin-bottom: 48px; }
+
+  .boq-mode-tabs { display: flex; margin-top: 32px; border: 1px solid rgba(217,119,6,0.3); width: fit-content; flex-wrap: wrap; }
+  .boq-mode-btn { padding: 14px 28px; font-family: 'Space Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; border: none; background: transparent; color: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.2s; border-right: 1px solid rgba(217,119,6,0.3); }
+  .boq-mode-btn:last-child { border-right: none; }
+  .boq-mode-btn.active { background: var(--gold); color: var(--navy); font-weight: 700; }
+  .boq-mode-btn:hover:not(.active) { color: var(--gold); }
+
+  .boq-panel { display: none; position: relative; z-index: 1; }
+  .boq-panel.active { display: block; }
+
+  .boq-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .form-group { margin-bottom: 0; }
+  .form-group.full { grid-column: 1/-1; }
+
+  .form-group label { display: block; font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 2px; color: rgba(255,255,255,0.5); text-transform: uppercase; margin-bottom: 8px; }
+
+  .form-group input, .form-group select, .form-group textarea {
+    width: 100%; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+    color: var(--white); padding: 14px 16px; font-family: 'DM Sans', sans-serif; font-size: 15px;
+    outline: none; transition: border-color 0.2s; appearance: none;
+  }
+  .form-group textarea { resize: none; height: 90px; }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--gold); background: rgba(255,255,255,0.09); }
+  .form-group select option { background: var(--navy-deep); color: var(--white); }
+
+  .boq-disclaimer { background: rgba(217,119,6,0.08); border: 1px solid rgba(217,119,6,0.2); padding: 16px 20px; margin-top: 20px; display: flex; gap: 12px; align-items: flex-start; }
+  .boq-disclaimer-icon { font-size: 16px; flex-shrink: 0; }
+  .boq-disclaimer p { font-size: 11px; color: rgba(217,119,6,0.8); line-height: 1.7; font-family: 'Space Mono', monospace; }
+
+  .boq-results { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); padding: 36px; display: flex; flex-direction: column; }
+  .boq-results-title { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--white); letter-spacing: 2px; margin-bottom: 4px; }
+  .boq-results-note { font-size: 11px; color: rgba(255,255,255,0.35); margin-bottom: 28px; font-family: 'Space Mono', monospace; }
+
+  .result-item { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.07); }
+  .result-item:last-of-type { border-bottom: none; }
+  .result-label { font-size: 13px; color: rgba(255,255,255,0.55); }
+  .result-value { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--gold); letter-spacing: 1px; }
+  .result-unit { font-family: 'Space Mono', monospace; font-size: 9px; color: rgba(255,255,255,0.35); margin-left: 6px; letter-spacing: 1px; }
+
+  .boq-gate { margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(217,119,6,0.25); }
+  .boq-gate p { font-size: 12px; color: rgba(255,255,255,0.45); margin-bottom: 16px; line-height: 1.6; }
+
+  /* ── AI CHAT ── */
+  .ai-chat-wrapper { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; height: 560px; }
+
+  .ai-chat-header { padding: 18px 24px; border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: space-between; }
+  .ai-chat-header-left { display: flex; align-items: center; gap: 12px; }
+  .ai-chat-avatar { width: 36px; height: 36px; background: var(--gold); display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; }
+  .ai-chat-name { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--white); letter-spacing: 1px; }
+  .ai-chat-status { font-size: 10px; color: var(--success); font-family: 'Space Mono', monospace; }
+  .ai-msg-counter { font-family: 'Space Mono', monospace; font-size: 9px; color: rgba(255,255,255,0.3); letter-spacing: 1px; }
+
+  .ai-chat-messages { flex: 1; overflow-y: auto; padding: 20px 24px; display: flex; flex-direction: column; gap: 14px; scroll-behavior: smooth; }
+  .ai-chat-messages::-webkit-scrollbar { width: 3px; }
+  .ai-chat-messages::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); }
+
+  .msg { display: flex; gap: 10px; max-width: 88%; }
+  .msg.user { align-self: flex-end; flex-direction: row-reverse; }
+
+  .msg-bubble { padding: 12px 16px; font-size: 13px; line-height: 1.65; }
+  .msg.ai .msg-bubble { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.08); }
+  .msg.user .msg-bubble { background: var(--gold); color: var(--navy); font-weight: 500; }
+
+  .msg-avatar { width: 28px; height: 28px; background: rgba(217,119,6,0.2); border: 1px solid rgba(217,119,6,0.3); display: flex; align-items: center; justify-content: center; font-size: 12px; flex-shrink: 0; align-self: flex-end; }
+  .msg.user .msg-avatar { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); }
+
+  .typing-indicator { display: flex; align-items: center; gap: 4px; padding: 12px 16px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.08); width: fit-content; }
+  .typing-dot { width: 6px; height: 6px; background: rgba(255,255,255,0.4); border-radius: 50%; animation: typing 1.2s infinite; }
+  .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+  .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes typing { 0%,60%,100%{opacity:0.3;transform:scale(0.8)}30%{opacity:1;transform:scale(1)} }
+
+  .ai-chat-bottom { border-top: 1px solid rgba(255,255,255,0.08); }
+
+  .ai-file-row { padding: 10px 16px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .ai-file-btn { display: flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.5); padding: 6px 12px; font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 1px; cursor: pointer; transition: all 0.2s; text-transform: uppercase; }
+  .ai-file-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .ai-file-btn input { display: none; }
+  .ai-file-name { font-family: 'Space Mono', monospace; font-size: 9px; color: var(--gold); letter-spacing: 1px; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .ai-chat-input-row { padding: 12px 16px; display: flex; gap: 10px; }
+  .ai-chat-input { flex: 1; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: var(--white); padding: 12px 16px; font-family: 'DM Sans', sans-serif; font-size: 14px; outline: none; transition: border-color 0.2s; }
+  .ai-chat-input:focus { border-color: var(--gold); }
+  .ai-chat-input::placeholder { color: rgba(255,255,255,0.3); }
+  .ai-chat-input:disabled { opacity: 0.4; }
+
+  .ai-chat-send { background: var(--gold); color: var(--navy); border: none; padding: 12px 20px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; cursor: pointer; transition: background 0.2s; letter-spacing: 1px; white-space: nowrap; }
+  .ai-chat-send:hover { background: var(--gold-light); }
+  .ai-chat-send:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .ai-limit-banner { background: rgba(217,119,6,0.15); border: 1px solid rgba(217,119,6,0.3); padding: 16px 20px; margin: 12px 16px; display: none; }
+  .ai-limit-banner p { font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(217,119,6,0.9); line-height: 1.7; }
+  .ai-limit-banner a { color: var(--gold); }
+
+  /* ── WHY US ── */
+  #why { background: var(--off-white); }
+
+  .why-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 80px; align-items: center; }
+
+  .why-card-main { background: var(--navy); padding: 64px 48px; position: relative; }
+  .why-card-main::before { content: '"'; position: absolute; top: 24px; left: 40px; font-family: 'Bebas Neue', sans-serif; font-size: 120px; color: rgba(217,119,6,0.2); line-height: 1; }
+
+  .why-quote { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: var(--white); letter-spacing: 1px; line-height: 1.1; position: relative; z-index: 1; margin-bottom: 24px; }
+  .why-quote span { color: var(--gold); }
+  .why-quote-attr { font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.4); letter-spacing: 2px; text-transform: uppercase; }
+
+  .why-badge { position: absolute; bottom: -24px; right: -24px; background: var(--gold); width: 96px; height: 96px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .why-badge-num { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: var(--navy); line-height: 1; }
+  .why-badge-txt { font-family: 'Space Mono', monospace; font-size: 7px; color: var(--navy); letter-spacing: 1px; text-align: center; text-transform: uppercase; line-height: 1.4; }
+
+  .why-points { display: flex; flex-direction: column; gap: 0; }
+  .why-point { padding: 28px 0; border-bottom: 1px solid var(--gray-300); display: flex; gap: 20px; align-items: flex-start; }
+  .why-point:first-child { border-top: 1px solid var(--gray-300); }
+  .why-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: var(--gold); line-height: 1; opacity: 0.4; flex-shrink: 0; width: 40px; }
+  .why-text h4 { font-family: 'Space Mono', monospace; font-size: 12px; letter-spacing: 1px; color: var(--navy); text-transform: uppercase; margin-bottom: 8px; }
+  .why-text p { font-size: 14px; color: var(--gray-600); line-height: 1.7; }
+
+  /* ── LOGISTICS ── */
+  #logistics { background: var(--white); }
+
+  .logistics-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--gray-300); border: 1px solid var(--gray-300); margin-top: 64px; }
+  .logistics-item { background: var(--white); padding: 48px 36px; transition: background 0.3s; }
+  .logistics-item:hover { background: var(--navy-deep); }
+  .logistics-item:hover .log-title { color: var(--white); }
+  .logistics-item:hover .log-desc { color: rgba(255,255,255,0.5); }
+  .logistics-item:hover .log-icon { color: var(--gold); }
+  .log-icon { font-size: 32px; margin-bottom: 24px; color: var(--navy); transition: color 0.3s; }
+  .log-title { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--navy); letter-spacing: 1px; margin-bottom: 12px; transition: color 0.3s; }
+  .log-desc { font-size: 14px; color: var(--gray-600); line-height: 1.7; transition: color 0.3s; }
+
+  /* ── CTA BAND ── */
+  #cta-band { background: var(--gold); padding: 80px 5%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 32px; }
+  .cta-band-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px,5vw,64px); color: var(--navy); letter-spacing: 2px; line-height: 1; }
+  .cta-band-sub { font-size: 16px; color: rgba(0,32,96,0.7); margin-top: 8px; }
+  .btn-dark { background: var(--navy); color: var(--white); padding: 18px 40px; font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; display: inline-block; border: 2px solid var(--navy); transition: all 0.2s; cursor: pointer; white-space: nowrap; }
+  .btn-dark:hover { background: transparent; color: var(--navy); }
+
+  /* ── CONTACT ── */
+  #contact { background: var(--navy-deep); }
+  #contact .section-title { color: var(--white); }
+
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; margin-top: 64px; }
+  .contact-info { display: flex; flex-direction: column; gap: 40px; }
+  .contact-item { display: flex; gap: 20px; align-items: flex-start; }
+  .contact-item-icon { width: 44px; height: 44px; border: 1px solid rgba(217,119,6,0.4); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold); font-size: 18px; }
+  .contact-item-label { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 2px; color: rgba(255,255,255,0.4); text-transform: uppercase; margin-bottom: 6px; }
+  .contact-item-value { font-size: 18px; color: var(--white); font-weight: 500; text-decoration: none; transition: color 0.2s; }
+  .contact-item-value:hover { color: var(--gold); }
+  .contact-item-value.small { font-size: 14px; }
+
+  .contact-form { display: flex; flex-direction: column; gap: 16px; }
+  .contact-form input, .contact-form select, .contact-form textarea { width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--white); padding: 16px; font-family: 'DM Sans', sans-serif; font-size: 15px; outline: none; transition: border-color 0.2s; resize: none; appearance: none; }
+  .contact-form textarea { height: 120px; }
+  .contact-form input:focus, .contact-form textarea:focus, .contact-form select:focus { border-color: var(--gold); }
+  .contact-form select option { background: var(--navy-deep); }
+
+  /* ── FOOTER ── */
+  footer { background: #000A1F; padding: 32px 5%; border-top: 1px solid rgba(217,119,6,0.2); }
+  .footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.3); letter-spacing: 1px; }
+  .footer-social { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center; }
+  .footer-social a { display: flex; align-items: center; gap: 8px; text-decoration: none; color: rgba(255,255,255,0.4); font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 1px; transition: color 0.2s; }
+  .footer-social a:hover.ig { color: #E1306C; }
+  .footer-social a:hover.fb { color: #1877F2; }
+  .footer-social a svg { width: 14px; height: 14px; fill: currentColor; flex-shrink: 0; }
+  .footer-divider { color: rgba(255,255,255,0.15); }
+  .footer-rc { font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(217,119,6,0.5); letter-spacing: 1px; }
+
+  /* ── WHATSAPP FLOAT ── */
+  .wa-float { position: fixed; bottom: 32px; right: 32px; z-index: 900; }
+  .wa-btn { width: 60px; height: 60px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 4px 20px rgba(37,211,102,0.5); transition: all 0.3s; animation: wa-bounce 3s ease-in-out infinite; }
+  .wa-btn:hover { transform: scale(1.1) !important; box-shadow: 0 8px 32px rgba(37,211,102,0.6); animation: none; }
+  .wa-btn svg { width: 32px; height: 32px; fill: white; }
+  @keyframes wa-bounce { 0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)} }
+  .wa-tooltip { position: absolute; right: 72px; top: 50%; transform: translateY(-50%); background: var(--navy); color: var(--white); padding: 8px 14px; font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 1px; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 0.3s; }
+  .wa-float:hover .wa-tooltip { opacity: 1; }
+
+  /* ── MODAL ── */
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,10,31,0.9); z-index: 2000; align-items: center; justify-content: center; padding: 24px; }
+  .modal-overlay.open { display: flex; }
+  .modal { background: var(--white); max-width: 480px; width: 100%; padding: 48px; position: relative; }
+  .modal-close { position: absolute; top: 16px; right: 16px; background: none; border: none; font-size: 20px; cursor: pointer; color: var(--gray-600); width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; }
+  .modal-tag { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 3px; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; }
+  .modal-title { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: var(--navy); letter-spacing: 1px; margin-bottom: 8px; }
+  .modal-sub { font-size: 14px; color: var(--gray-600); margin-bottom: 32px; line-height: 1.6; }
+  .modal-form { display: flex; flex-direction: column; gap: 12px; }
+  .modal-form input { width: 100%; background: var(--gray-100); border: 1px solid var(--gray-300); color: var(--gray-800); padding: 14px 16px; font-family: 'DM Sans', sans-serif; font-size: 15px; outline: none; transition: border-color 0.2s; }
+  .modal-form input:focus { border-color: var(--navy); }
+
+
+  /* ── PRODUCT CARD PHOTOS ── */
+  .pc-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 24px;
+    filter: grayscale(8%);
+    transition: filter 0.3s;
+  }
+  .product-card:hover .pc-photo { filter: grayscale(0%) brightness(0.85); }
+
+  /* ── GALLERY SECTION ── */
+  #gallery { background: var(--navy-deep); padding: 100px 5%; }
+  #gallery .section-title { color: var(--white); }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 3px;
+    margin-top: 56px;
+  }
+
+  .gallery-grid .g-item:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .g-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: var(--navy);
+  }
+
+  .g-item img {
+    width: 100%;
+    height: 100%;
+    min-height: 240px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease, filter 0.3s ease;
+    filter: grayscale(15%);
+  }
+
+  .g-item:hover img { transform: scale(1.04); filter: grayscale(0%); }
+
+  .g-item-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,16,64,0.75) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+  }
+
+  .g-item:hover .g-item-overlay { opacity: 1; }
+
+  .g-item-label {
+    font-family: "Space Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+
+  /* Lightbox */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.93);
+    z-index: 2100;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox img { max-width: 90vw; max-height: 88vh; object-fit: contain; }
+  .lightbox-close {
+    position: absolute;
+    top: 20px; right: 24px;
+    background: none; border: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 32px;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s;
+  }
+  .lightbox-close:hover { color: var(--white); }
+
+  @media (max-width: 768px) {
+    .gallery-grid { grid-template-columns: 1fr 1fr; }
+    .gallery-grid .g-item:first-child { grid-column: 1 / 3; }
+    .pc-photo { height: 160px; }
+  }
+
+  @media (max-width: 480px) {
+    .gallery-grid { grid-template-columns: 1fr; }
+    .gallery-grid .g-item:first-child { grid-column: 1; }
+  }
+
+
+  /* ── GALLERY FILTER TABS ── */
+  .gallery-filter-tabs {
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+    border: 1px solid rgba(var(--gold-rgb, 217 119 6)/0.3);
+    width: fit-content;
+    margin-bottom: 36px;
+  }
+
+  .gf-tab {
+    height: 40px;
+    padding: 0 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    background: transparent;
+    border: none;
+    border-right: 1px solid rgba(217,119,6,0.3);
+    cursor: pointer;
+    transition: all 200ms;
+    white-space: nowrap;
+  }
+
+  .gf-tab:last-child { border-right: none; }
+  .gf-tab.active { background: var(--gold); color: var(--navy-deep); font-weight: 700; }
+  .gf-tab:hover:not(.active) { color: var(--gold); }
+
+  /* ── CAROUSEL ── */
+  .carousel-outer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .carousel-arrow {
+    width: 48px;
+    height: 48px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 200ms, border-color 200ms;
+    z-index: 2;
+  }
+
+  .carousel-arrow:hover { background: var(--gold); border-color: var(--gold); color: var(--navy-deep); }
+  .carousel-arrow svg { width: 20px; height: 20px; }
+
+  .carousel-viewport {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .carousel-track {
+    display: flex;
+    gap: 3px;
+    transition: transform 450ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: transform;
+  }
+
+  .carousel-slide {
+    position: relative;
+    flex-shrink: 0;
+    width: calc(33.333% - 2px);
+    overflow: hidden;
+    cursor: pointer;
+    background: var(--navy);
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    transition: transform 500ms ease, filter 300ms ease;
+    filter: grayscale(10%);
+  }
+
+  .carousel-slide:hover img { transform: scale(1.04); filter: grayscale(0%); }
+
+  .slide-label {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: linear-gradient(transparent, rgba(0,16,64,0.85));
+    padding: 28px 16px 14px;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+
+  .carousel-slide:hover .slide-label { opacity: 1; }
+
+  /* Dots */
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .carousel-dot {
+    width: 6px; height: 6px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 200ms, transform 200ms;
+    border: none;
+    padding: 0;
+  }
+
+  .carousel-dot.active { background: var(--gold); transform: scale(1.4); }
+
+  @media (max-width: 900px) {
+    .carousel-slide { width: calc(50% - 1.5px); }
+    .carousel-slide img { height: 220px; }
+  }
+
+  @media (max-width: 560px) {
+    .carousel-slide { width: 100%; }
+    .carousel-slide img { height: 240px; }
+    .slide-label { opacity: 1; }
+    .carousel-arrow { width: 40px; height: 40px; }
+  }
+
+  /* ── ANIMATIONS ── */
+  .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .fade-in.visible { opacity: 1; transform: none; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    .hero-stats { display: none; }
+    .boq-layout { grid-template-columns: 1fr; gap: 40px; }
+    .why-grid { grid-template-columns: 1fr; gap: 48px; }
+    .logistics-grid { grid-template-columns: 1fr; }
+    .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+    .form-row { grid-template-columns: 1fr; }
+    .products-header { flex-direction: column; align-items: flex-start; }
+    #cta-band { flex-direction: column; text-align: center; }
+    .boq-mode-tabs { width: 100%; }
+    .boq-mode-btn { flex: 1; text-align: center; padding: 12px 8px; font-size: 9px; }
+  }
+
+  @media (max-width: 600px) {
+    section { padding: 70px 5%; }
+    .modal { padding: 32px 24px; }
+    .footer-inner { flex-direction: column; text-align: center; }
+    .why-badge { bottom: -16px; right: -8px; width: 72px; height: 72px; }
+    .why-badge-num { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">
+    <div class="logo-mark">
+      <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="18" height="8" fill="#002060"/>
+        <rect x="0" y="10" width="18" height="8" fill="#D97706"/>
+        <rect x="0" y="20" width="18" height="8" fill="#002060"/>
+        <rect x="22" y="0" width="20" height="28" fill="#002060"/>
+        <rect x="22" y="10" width="20" height="8" fill="white" opacity="0.15"/>
+      </svg>
+    </div>
+    <div class="logo-text">
+      <span class="logo-primary">ABUJA PRECAST</span>
+      <span class="logo-sub">Concrete Limited</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#products">Products</a></li>
+    <li><a href="#boq">BOQ Estimator</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#logistics">Logistics</a></li>
+    <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-accent"></div>
+  <div class="hero-accent-2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Free Delivery in Abuja &nbsp;·&nbsp; Nationwide Available</div>
+    <h1 class="hero-title">SMART BLOCKS<br><span>FOR THE</span>FUTURE</h1>
+    <p class="hero-sub">Abuja's most technically rigorous precast concrete manufacturer. Heavy-duty blocks, precision kerb stones, and high-vibration interlocking — engineered to last, delivered on time.</p>
+    <div class="hero-actions">
+      <a href="#boq" class="btn-primary">Calculate Your BOQ</a>
+      <a href="#products" class="btn-secondary">View Products</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item"><div class="stat-num">9+</div><div class="stat-label">Product Lines</div></div>
+    <div class="stat-item"><div class="stat-num">9,000+</div><div class="stat-label">Units Per Day</div></div>
+    <div class="stat-item"><div class="stat-num">36</div><div class="stat-label">States Covered</div></div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="products-header">
+    <div>
+      <div class="section-tag">What We Make</div>
+      <h2 class="section-title">OUR<br>PRODUCT RANGE</h2>
+      <p class="section-lead">Three categories. Nine precision-engineered product lines. All manufactured to industrial specification.</p>
+    </div>
+    <div class="product-tabs">
+      <button class="tab-btn active" onclick="filterProducts('all',this)">All</button>
+      <button class="tab-btn" onclick="filterProducts('block',this)">Blocks</button>
+      <button class="tab-btn" onclick="filterProducts('interlock',this)">Interlocks</button>
+      <button class="tab-btn" onclick="filterProducts('kerb',this)">Kerb Stones</button>
+    </div>
+  </div>
+  <div class="products-grid" id="productsGrid">
+    <div class="product-card fade-in" data-cat="block">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="10" rx="1"/><line x1="8" y1="7" x2="8" y2="17"/><line x1="16" y1="7" x2="16" y2="17"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div>
+      <div class="product-category">Blocks</div>
+      <div class="product-name">9 Inch 3-Hole Block</div>
+      <p class="product-desc">Heavy-duty structural block for load-bearing walls. Engineered for maximum compressive strength and thermal performance.</p>
+      <div class="product-unit">● Sold per piece</div>
+    </div>
+    <div class="product-card fade-in" data-cat="block">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><rect x="2" y="8" width="20" height="8" rx="1"/><line x1="9" y1="8" x2="9" y2="16"/><line x1="15" y1="8" x2="15" y2="16"/></svg></div>
+      <div class="product-category">Blocks</div>
+      <div class="product-name">6 Inch Block</div>
+      <p class="product-desc">Versatile medium-duty block suited for partition walls and perimeter fencing. Consistent geometry for faster laying.</p>
+      <div class="product-unit">● Sold per piece</div>
+    </div>
+    <div class="product-card fade-in" data-cat="block">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><rect x="2" y="9" width="20" height="6" rx="1"/><line x1="10" y1="9" x2="10" y2="15"/></svg></div>
+      <div class="product-category">Blocks</div>
+      <div class="product-name">4 Inch Block</div>
+      <p class="product-desc">Lightweight partition block for internal divisions. Lower material cost without compromising structural integrity.</p>
+      <div class="product-unit">● Sold per piece</div>
+    </div>
+    <div class="product-card fade-in" data-cat="interlock">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="9" height="9" rx="0.5"/><rect x="13" y="2" width="9" height="9" rx="0.5"/><rect x="2" y="13" width="9" height="9" rx="0.5"/><rect x="13" y="13" width="9" height="9" rx="0.5"/></svg></div>
+      <div class="product-category">Interlocks</div>
+      <div class="product-name">Standard Interlock</div>
+      <p class="product-desc">The industry workhorse. Precision vibrated for consistent thickness and load distribution on driveways and walkways.</p>
+      <div class="product-unit">● Sold per sqm</div>
+    </div>
+    <div class="product-card fade-in" data-cat="interlock">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><rect x="2" y="2" width="8" height="8"/><rect x="14" y="2" width="8" height="8"/><rect x="2" y="14" width="8" height="8"/><rect x="14" y="14" width="8" height="8"/></svg></div>
+      <div class="product-category">Interlocks</div>
+      <div class="product-name">Cobblestone Interlock</div>
+      <p class="product-desc">Heritage aesthetic with industrial durability. Ideal for estate roads, courtyards, and landscaped commercial areas.</p>
+      <div class="product-unit">● Sold per sqm</div>
+    </div>
+    <div class="product-card fade-in" data-cat="interlock">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="11" rx="0.5"/><rect x="14" y="3" width="7" height="11" rx="0.5"/><rect x="3" y="16" width="18" height="5" rx="0.5"/></svg></div>
+      <div class="product-category">Interlocks</div>
+      <div class="product-name">Holland Interlock</div>
+      <p class="product-desc">Rectangular format for a clean, modern grid pattern. High compressive strength for parking and light traffic areas.</p>
+      <div class="product-unit">● Sold per sqm</div>
+    </div>
+    <div class="product-card fade-in" data-cat="interlock">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><path d="M12 2L22 7L22 17L12 22L2 17L2 7Z"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="7" x2="22" y2="17"/><line x1="22" y1="7" x2="2" y2="17"/></svg></div>
+      <div class="product-category">Interlocks</div>
+      <div class="product-name">Double-T 6cm Colored</div>
+      <p class="product-desc">Premium colored paving for high-visibility zones and aesthetic estates. 6cm thickness for heavy-duty applications.</p>
+      <div class="product-unit">● Sold per sqm</div>
+    </div>
+    <div class="product-card fade-in" data-cat="kerb">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><path d="M2 18L6 6L18 6L22 18Z"/><line x1="2" y1="18" x2="22" y2="18"/></svg></div>
+      <div class="product-category">Kerb Stones</div>
+      <div class="product-name">Standard Kerb Stone</div>
+      <p class="product-desc">Road-grade kerb for carriageways and drainage channels. Manufactured to standard specifications for longevity under traffic load.</p>
+      <div class="product-unit">● Sold per linear metre</div>
+    </div>
+    <div class="product-card fade-in" data-cat="kerb">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><path d="M2 16Q12 8 22 16"/><line x1="2" y1="16" x2="2" y2="20"/><line x1="22" y1="16" x2="22" y2="20"/><line x1="2" y1="20" x2="22" y2="20"/></svg></div>
+      <div class="product-category">Kerb Stones</div>
+      <div class="product-name">Garden Kerb</div>
+      <p class="product-desc">Elegant low-profile edging for landscaped gardens, walkways, and decorative borders. Clean finish, precise dimensions.</p>
+      <div class="product-unit">● Sold per linear metre</div>
+    </div>
+  </div>
+</section>
+
+<!-- BOQ ESTIMATOR -->
+<section id="boq">
+  <div class="boq-intro">
+    <div class="section-tag" style="color:rgba(217,119,6,0.8)">Free Tool</div>
+    <h2 class="section-title">BOQ<br>ESTIMATOR</h2>
+    <p class="section-lead" style="color:rgba(255,255,255,0.5);max-width:600px;">Estimate materials for fencing, a rough building project, or get an AI-powered detailed estimate. Choose your mode below.</p>
+    <div class="boq-mode-tabs">
+      <button class="boq-mode-btn active" onclick="switchBoqMode('fencing',this)">🪜 Fencing</button>
+      <button class="boq-mode-btn" onclick="switchBoqMode('building',this)">🏠 Building (Rough)</button>
+      <button class="boq-mode-btn" onclick="switchBoqMode('detailed',this)">🤖 AI Detailed</button>
+    </div>
+  </div>
+
+  <!-- FENCING PANEL -->
+  <div class="boq-panel active" id="panel-fencing">
+    <div class="boq-layout">
+      <div>
+        <div class="form-row">
+          <div class="form-group"><label>Fence Length (metres)</label><input type="number" id="fenceLength" placeholder="e.g. 100" min="1" oninput="calcFencing()"></div>
+          <div class="form-group"><label>Fence Height (metres)</label><input type="number" id="fenceHeight" placeholder="e.g. 2.1" min="0.5" step="0.1" oninput="calcFencing()"></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Block Type</label>
+            <select id="fenceBlockType" onchange="calcFencing()">
+              <option value="9inch">9 Inch 3-Hole Block</option>
+              <option value="6inch">6 Inch Block</option>
+              <option value="4inch">4 Inch Block</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Number of Pillars</label><input type="number" id="pillars" placeholder="e.g. 20" min="0" oninput="calcFencing()"></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full"><label>Gate Openings — total metres to deduct</label><input type="number" id="gateWidth" placeholder="e.g. 6" min="0" oninput="calcFencing()"></div>
+        </div>
+        <div class="boq-disclaimer">
+          <div class="boq-disclaimer-icon">⚠️</div>
+          <p>ROUGH ESTIMATE ONLY. Figures include a 5% waste allowance but do not account for soil conditions, pillar depth, DPC, or reinforcement. Consult a qualified structural engineer or quantity surveyor before purchasing materials.</p>
+        </div>
+      </div>
+      <div class="boq-results">
+        <div class="boq-results-title">FENCING ESTIMATE</div>
+        <p class="boq-results-note" id="fence-note">// Fill the form to generate results</p>
+        <div class="result-item"><span class="result-label">Blocks Required</span><span><span class="result-value" id="f-blocks">—</span><span class="result-unit">PCS</span></span></div>
+        <div class="result-item"><span class="result-label">Cement Bags (42.5kg)</span><span><span class="result-value" id="f-cement">—</span><span class="result-unit">BAGS</span></span></div>
+        <div class="result-item"><span class="result-label">Sharp Sand</span><span><span class="result-value" id="f-sand">—</span><span class="result-unit">TONNES</span></span></div>
+        <div class="result-item"><span class="result-label">Est. Blocks Cost</span><span><span class="result-value" id="f-cost">—</span><span class="result-unit">NGN</span></span></div>
+        <div class="boq-gate">
+          <p>Ready to order? Get a formal quote sent to your WhatsApp.</p>
+          <button class="btn-primary" onclick="openBoqGate('fencing')" style="width:100%;text-align:center;display:block;border:none;">Get Quote on WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BUILDING ROUGH PANEL -->
+  <div class="boq-panel" id="panel-building">
+    <div class="boq-layout">
+      <div>
+        <div class="form-row">
+          <div class="form-group full"><label>Building Type</label>
+            <select id="bldType" onchange="calcBuilding()">
+              <option value="">— Select building type —</option>
+              <option value="1bed_bungalow">1-Bedroom Bungalow</option>
+              <option value="2bed_bungalow">2-Bedroom Bungalow</option>
+              <option value="3bed_bungalow">3-Bedroom Bungalow</option>
+              <option value="4bed_bungalow">4-Bedroom Bungalow</option>
+              <option value="2bed_duplex">2-Bedroom Duplex (2 floors)</option>
+              <option value="3bed_duplex">3-Bedroom Duplex (2 floors)</option>
+              <option value="4bed_duplex">4-Bedroom Duplex (2 floors)</option>
+              <option value="terrace">Terrace / Townhouse (2 floors)</option>
+              <option value="apartment_4">4-Unit Apartment Block</option>
+              <option value="apartment_6">6-Unit Apartment Block</option>
+              <option value="commercial">Commercial / Office (1 floor)</option>
+              <option value="warehouse">Warehouse / Store</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Plot Size (sqm) — approx.</label><input type="number" id="plotSize" placeholder="e.g. 300" min="50" oninput="calcBuilding()"></div>
+          <div class="form-group"><label>Wall Block Type</label>
+            <select id="bldBlockType" onchange="calcBuilding()">
+              <option value="9inch">9 Inch 3-Hole Block</option>
+              <option value="6inch">6 Inch Block</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Include Fencing? (total metres)</label><input type="number" id="bldFenceLen" placeholder="0 if not needed" min="0" oninput="calcBuilding()"></div>
+          <div class="form-group"><label>Include Interlocking? (sqm)</label><input type="number" id="bldInterlockArea" placeholder="0 if not needed" min="0" oninput="calcBuilding()"></div>
+        </div>
+        <div class="boq-disclaimer">
+          <div class="boq-disclaimer-icon">⚠️</div>
+          <p>ROUGH ESTIMATE ONLY — accuracy ±30%. Based on Abuja industry averages. Actual quantities depend on your approved drawings, wall thicknesses, openings, and site conditions. Do NOT use for procurement without review by a registered professional. For a more accurate estimate, use the AI Detailed mode above.</p>
+        </div>
+      </div>
+      <div class="boq-results">
+        <div class="boq-results-title">BUILDING ESTIMATE</div>
+        <p class="boq-results-note" id="bld-note">// Select building type to generate</p>
+        <div class="result-item"><span class="result-label">Wall Blocks</span><span><span class="result-value" id="b-blocks">—</span><span class="result-unit">PCS</span></span></div>
+        <div class="result-item"><span class="result-label">Cement Bags (42.5kg)</span><span><span class="result-value" id="b-cement">—</span><span class="result-unit">BAGS</span></span></div>
+        <div class="result-item"><span class="result-label">Sharp Sand</span><span><span class="result-value" id="b-sand">—</span><span class="result-unit">TONNES</span></span></div>
+        <div class="result-item"><span class="result-label">Granite / Chippings</span><span><span class="result-value" id="b-granite">—</span><span class="result-unit">TONNES</span></span></div>
+        <div class="result-item"><span class="result-label">Est. Block Supply Cost</span><span><span class="result-value" id="b-cost">—</span><span class="result-unit">NGN</span></span></div>
+        <div class="boq-gate">
+          <p>Ready to order? Get a formal quote sent to your WhatsApp.</p>
+          <button class="btn-primary" onclick="openBoqGate('building')" style="width:100%;text-align:center;display:block;border:none;">Get Quote on WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI DETAILED PANEL -->
+  <div class="boq-panel" id="panel-detailed">
+    <div class="boq-layout">
+      <div>
+        <div class="boq-disclaimer" style="margin-bottom:20px;">
+          <div class="boq-disclaimer-icon">🤖</div>
+          <p>AI-POWERED ESTIMATION. Describe your project or upload a sketch/plan image. The AI will ask follow-up questions and generate a detailed estimate. Still an AI estimate — not a substitute for a certified quantity surveyor. Always consult a registered professional before procurement.</p>
+        </div>
+        <div class="boq-disclaimer" style="margin-bottom:20px; background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.1);">
+          <div class="boq-disclaimer-icon">📐</div>
+          <p style="color:rgba(255,255,255,0.5);">SUPPORTED UPLOADS: JPG, PNG photos or screenshots of your building plan, sketch, or drawing. Upload using the button in the chat below. PDF support coming in Phase 2.</p>
+        </div>
+        <div class="boq-disclaimer" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.1);">
+          <div class="boq-disclaimer-icon">💡</div>
+          <p style="color:rgba(255,255,255,0.5);">NO PLAN? No problem. Just describe your project — building type, number of rooms, approximate size, location in Abuja — and the AI will guide you through the rest.</p>
+        </div>
+      </div>
+
+      <div class="ai-chat-wrapper">
+        <div class="ai-chat-header">
+          <div class="ai-chat-header-left">
+            <div class="ai-chat-avatar">🏗️</div>
+            <div>
+              <div class="ai-chat-name">APCL AI ESTIMATOR</div>
+              <div class="ai-chat-status" id="chatStatus">● Online</div>
+            </div>
+          </div>
+          <div class="ai-msg-counter" id="msgCounter">12 exchanges remaining</div>
+        </div>
+
+        <div class="ai-chat-messages" id="chatMessages"></div>
+
+        <div class="ai-limit-banner" id="limitBanner">
+          <p>Session limit reached. For a formal detailed quote:<br>
+          📞 <a href="tel:08052353518">08052353518</a> &nbsp;|&nbsp;
+          💬 <a href="https://wa.me/2348052353518" target="_blank">WhatsApp Us</a></p>
+        </div>
+
+        <div class="ai-chat-bottom">
+          <div class="ai-file-row">
+            <label class="ai-file-btn">
+              📎 ATTACH PLAN IMAGE
+              <input type="file" id="planUpload" accept=".jpg,.jpeg,.png,.webp" onchange="handleFileUpload(this)">
+            </label>
+            <span class="ai-file-name" id="fileNameDisplay"></span>
+          </div>
+          <div class="ai-chat-input-row">
+            <input class="ai-chat-input" id="chatInput" type="text" placeholder="Describe your project or answer the question..." onkeydown="if(event.key==='Enter'&&!event.shiftKey)sendChat()">
+            <button class="ai-chat-send" id="chatSend" onclick="sendChat()">SEND →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-tag" style="color:rgba(217,119,6,0.8)">From The Yard</div>
+  <h2 class="section-title">SEE OUR<br>WORK</h2>
+  <p class="section-lead" style="color:rgba(255,255,255,0.5);margin-bottom:40px;">Real products. Real projects. All from our Abuja plant.</p>
+
+  <!-- Category filter tabs -->
+  <div class="gallery-filter-tabs" role="tablist" aria-label="Gallery categories">
+    <button class="gf-tab active" onclick="filterGallery('all',this)">All</button>
+    <button class="gf-tab" onclick="filterGallery('yard',this)">Factory &amp; Yard</button>
+    <button class="gf-tab" onclick="filterGallery('prod',this)">Production</button>
+    <button class="gf-tab" onclick="filterGallery('proj',this)">Projects</button>
+    <button class="gf-tab" onclick="filterGallery('people',this)">People</button>
+    <button class="gf-tab" onclick="filterGallery('fleet',this)">Fleet</button>
+  </div>
+
+  <!-- Carousel wrapper -->
+  <div class="carousel-outer">
+    <button class="carousel-arrow carousel-prev" onclick="slideCarousel(-1)" aria-label="Previous slides">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+
+    <div class="carousel-viewport" id="carouselViewport">
+      <div class="carousel-track" id="carouselTrack">
+
+        <!-- YARD & FACTORY -->
+        <div class="carousel-slide" data-cat="yard">
+          <img src="images/gallery/yard-01.jpg" alt="APCL block yard — thousands of blocks in stock" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Block Yard · Abuja</div>
+        </div>
+        <div class="carousel-slide" data-cat="yard">
+          <img src="images/gallery/yard-02.jpg" alt="Mixed blocks curing at APCL yard" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Fresh Curing · Yard</div>
+        </div>
+        <div class="carousel-slide" data-cat="yard">
+          <img src="images/gallery/yard-03.jpg" alt="Large scale block stockpile ready for delivery" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Bulk Stock Ready</div>
+        </div>
+        <div class="carousel-slide" data-cat="yard">
+          <img src="images/gallery/yard-04.jpg" alt="APCL panoramic yard view at sunset" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Yard Overview</div>
+        </div>
+        <div class="carousel-slide" data-cat="yard">
+          <img src="images/gallery/yard-05.jpg" alt="Stacked blocks ready for collection" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Ready for Collection</div>
+        </div>
+
+        <!-- PRODUCTION -->
+        <div class="carousel-slide" data-cat="prod">
+          <img src="images/gallery/prod-01.jpg" alt="Conmach block machine in production" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Conmach Machine · Live</div>
+        </div>
+        <div class="carousel-slide" data-cat="prod">
+          <img src="images/gallery/prod-02.jpg" alt="APCL drying area and production equipment" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Factory Floor</div>
+        </div>
+        <div class="carousel-slide" data-cat="prod">
+          <img src="images/gallery/prod-03.jpg" alt="Blocks fresh from the press at quarry site" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Quarry Operations</div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="carousel-slide" data-cat="proj">
+          <img src="images/gallery/proj-01.jpg" alt="Multi-storey residential duplex built with APCL blocks" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Residential Duplex · Abuja</div>
+        </div>
+        <div class="carousel-slide" data-cat="proj">
+          <img src="images/gallery/proj-02.jpg" alt="Bungalow under construction using APCL blocks" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Bungalow · Under Construction</div>
+        </div>
+        <div class="carousel-slide" data-cat="proj">
+          <img src="images/gallery/proj-03.jpg" alt="Large commercial complex built with APCL blocks" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Commercial Complex · Abuja</div>
+        </div>
+
+        <!-- PEOPLE -->
+        <div class="carousel-slide" data-cat="people">
+          <img src="images/gallery/people-01.jpg" alt="APCL MD on site visit with client" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Site Visit · MD &amp; Client</div>
+        </div>
+        <div class="carousel-slide" data-cat="people">
+          <img src="images/gallery/people-02.jpg" alt="APCL team at the plant" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Our Team</div>
+        </div>
+
+        <!-- FLEET -->
+        <div class="carousel-slide" data-cat="fleet">
+          <img src="images/gallery/fleet-01.jpg" alt="APCL Sinotruck HOWO delivery truck" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Sinotruck HOWO · Delivery Fleet</div>
+        </div>
+        <div class="carousel-slide" data-cat="fleet">
+          <img src="images/gallery/fleet-02.jpg" alt="APCL Mercedes-Benz delivery truck" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Mercedes-Benz · Delivery Fleet</div>
+        </div>
+        <div class="carousel-slide" data-cat="fleet">
+          <img src="images/gallery/fleet-03.jpg" alt="APCL MAN delivery truck" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">MAN Truck · Delivery Fleet</div>
+        </div>
+        <div class="carousel-slide" data-cat="fleet">
+          <img src="images/gallery/fleet-04.jpg" alt="APCL Mercedes-Benz flatbed truck" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Mercedes Flatbed · Delivery Fleet</div>
+        </div>
+        <div class="carousel-slide" data-cat="fleet">
+          <img src="images/gallery/fleet-05.jpg" alt="APCL red delivery truck at plant" loading="lazy" onclick="openLightbox(this)">
+          <div class="slide-label">Red Truck · Delivery Fleet</div>
+        </div>
+
+      </div>
+    </div>
+
+    <button class="carousel-arrow carousel-next" onclick="slideCarousel(1)" aria-label="Next slides">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+
+  <!-- Dots -->
+  <div class="carousel-dots" id="carouselDots"></div>
+
+  <!-- Add photo instructions -->
+  <p style="font-family:'Space Mono',monospace;font-size:10px;color:rgba(255,255,255,0.2);text-align:center;margin-top:32px;letter-spacing:1px;">
+    TO ADD PHOTOS: Upload JPG to the <code style="color:rgba(217,119,6,0.4)">images/gallery/</code> folder on GitHub and add a slide block above. To remove: delete the file and its slide block.
+  </p>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="why-grid">
+    <div style="position:relative;">
+      <div class="why-card-main">
+        <div class="why-quote">Engineering decisions made <span>here</span> stand for decades out there.</div>
+        <div class="why-quote-attr">— Muktar Aliyu Abdullahi, MD</div>
+        <div class="why-badge"><div class="why-badge-num">RC</div><div class="why-badge-txt">1838184<br>Registered</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="section-tag">Our Advantage</div>
+      <h2 class="section-title">WHY<br>CHOOSE US</h2>
+      <div class="why-points">
+        <div class="why-point"><div class="why-num">01</div><div class="why-text"><h4>High-Vibration Manufacturing</h4><p>Turkish-manufactured Conmach block machines produce consistent density and geometry — no hand-tamped inconsistency.</p></div></div>
+        <div class="why-point"><div class="why-num">02</div><div class="why-text"><h4>Verified Corporate Entity</h4><p>RC: 1838184. Licensed, board-governed operation with transparent documentation on every transaction.</p></div></div>
+        <div class="why-point"><div class="why-num">03</div><div class="why-text"><h4>Own Fleet Delivery</h4><p>30-tonne HOWO trucks on double-shift rotation. We don't outsource logistics — you get a guaranteed delivery window.</p></div></div>
+        <div class="why-point"><div class="why-num">04</div><div class="why-text"><h4>Data-Driven Operations</h4><p>Fully digitised production, inventory, and dispatch. Every order traceable from yard to site.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOGISTICS -->
+<section id="logistics">
+  <div class="section-tag">Supply Chain</div>
+  <h2 class="section-title">LOGISTICS<br>CAPABILITY</h2>
+  <p class="section-lead">From plant to site, we control every step of the supply chain.</p>
+  <div class="logistics-grid">
+    <div class="logistics-item fade-in"><div class="log-icon" style="font-size:0">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.5" style="transition:stroke 0.3s"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+      </div><div class="log-title">Large Daily Delivery Capacity</div><p class="log-desc">4 dedicated trucks operating on double-shift schedules with a combined capacity of over 9,000 units per day. Bulk orders dispatched same day or scheduled for a precision delivery window that suits your site.</p></div>
+    <div class="logistics-item fade-in"><div class="log-icon" style="font-size:0">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.5" style="transition:stroke 0.3s"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      </div><div class="log-title">Free Delivery in Abuja · Nationwide</div><p class="log-desc">Free delivery within Abuja FCT on qualifying orders. We also deliver to all 36 states across Nigeria — contact us for long-distance bulk delivery rates and scheduling.</p></div>
+    <div class="logistics-item fade-in"><div class="log-icon">📋</div><div class="log-title">Waybill & Documentation</div><p class="log-desc">Every delivery comes with a formal waybill. LPO-based ordering accepted for corporate and government clients.</p></div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div id="cta-band">
+  <div>
+    <div class="cta-band-title">READY TO BUILD?</div>
+    <div class="cta-band-sub">Call our sales desk — we quote within the hour.</div>
+  </div>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;">
+    <a href="tel:08052353518" class="btn-dark">📞 08052353518</a>
+    <a href="https://wa.me/2348052353518" target="_blank" class="btn-dark" style="background:var(--navy-deep);">WhatsApp Us</a>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-tag" style="color:rgba(217,119,6,0.8)">Reach Out</div>
+  <h2 class="section-title">GET IN<br>TOUCH</h2>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-item"><div class="contact-item-icon">📞</div><div><div class="contact-item-label">Phone</div><a href="tel:08052353518" class="contact-item-value">08052353518</a></div></div>
+      <div class="contact-item"><div class="contact-item-icon">✉️</div><div><div class="contact-item-label">Email</div><a href="mailto:abujaprecastconcreteltd@gmail.com" class="contact-item-value small">abujaprecastconcreteltd@gmail.com</a></div></div>
+      <div class="contact-item"><div class="contact-item-icon">📍</div><div><div class="contact-item-label">Location</div><span class="contact-item-value">Abuja, FCT, Nigeria</span></div></div>
+      <div class="contact-item"><div class="contact-item-icon">🕒</div><div><div class="contact-item-label">Working Hours</div><span class="contact-item-value">Mon – Sat: 7am – 6pm</span></div></div>
+      <div style="display:flex;gap:16px;margin-top:8px;">
+        <a href="https://instagram.com/abujaprecastconcrete" target="_blank" style="display:flex;align-items:center;gap:8px;text-decoration:none;color:rgba(255,255,255,0.5);font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;transition:color 0.2s;" onmouseover="this.style.color='#E1306C'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @abujaprecastconcrete
+        </a>
+        <a href="https://facebook.com/abujaprecastconcrete" target="_blank" style="display:flex;align-items:center;gap:8px;text-decoration:none;color:rgba(255,255,255,0.5);font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;transition:color 0.2s;" onmouseover="this.style.color='#1877F2'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Abuja Precast Concrete
+        </a>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="submitContact(event)">
+      <input type="text" placeholder="Full Name *" required>
+      <input type="tel" placeholder="Phone Number *" required>
+      <input type="email" placeholder="Email Address">
+      <select required>
+        <option value="" disabled selected>Product of Interest</option>
+        <option>9 Inch 3-Hole Block</option>
+        <option>6 Inch Block</option>
+        <option>4 Inch Block</option>
+        <option>Standard Interlock</option>
+        <option>Cobblestone Interlock</option>
+        <option>Holland Interlock</option>
+        <option>Double-T Interlock 6cm Colored</option>
+        <option>Standard Kerb Stone</option>
+        <option>Garden Kerb</option>
+        <option>Multiple Products</option>
+      </select>
+      <textarea placeholder="Project description, quantity needed, delivery location..."></textarea>
+      <button type="submit" class="btn-primary" style="border:none;cursor:pointer;">Send Enquiry →</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-copy">© 2025 Abuja Precast Concrete Limited. All rights reserved.</div>
+    <div class="footer-social">
+      <a href="https://instagram.com/abujaprecastconcrete" target="_blank" class="ig">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        @abujaprecastconcrete
+      </a>
+      <span class="footer-divider">|</span>
+      <a href="https://facebook.com/abujaprecastconcrete" target="_blank" class="fb">
+        <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        Abuja Precast Concrete
+      </a>
+    </div>
+    <div class="footer-rc">RC: 1838184 · Abuja, FCT</div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<div class="wa-float">
+  <div class="wa-tooltip">Chat with us</div>
+  <a href="https://wa.me/2348052353518?text=Hello%2C%20I%20am%20interested%20in%20your%20precast%20concrete%20products." target="_blank" class="wa-btn">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+
+<!-- BOQ QUOTE MODAL -->
+<div class="modal-overlay" id="boqModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-tag">One Last Step</div>
+    <div class="modal-title">GET YOUR QUOTE</div>
+    <p class="modal-sub">Enter your details and we'll send your estimate and a formal quote via WhatsApp.</p>
+    <form class="modal-form" onsubmit="submitBOQ(event)">
+      <input type="text" placeholder="Your Full Name *" required>
+      <input type="tel" placeholder="WhatsApp Number *" required>
+      <input type="text" placeholder="Project Location (e.g. Gwarinpa, Abuja) *" required>
+      <button type="submit" class="btn-primary" style="border:none;cursor:pointer;width:100%;display:block;text-align:center;">Send My Quote via WhatsApp →</button>
+    </form>
+  </div>
+</div>
+
+<script>
+// ── SCROLL ANIMATIONS ──
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  initCarousel();
+
+// ── PRODUCT FILTER ──
+function filterProducts(cat, btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.product-card').forEach(card => {
+    card.style.display = (cat === 'all' || card.dataset.cat === cat) ? 'block' : 'none';
+  });
+}
+
+// ── BOQ MODE SWITCH ──
+function switchBoqMode(mode, btn) {
+  document.querySelectorAll('.boq-mode-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.boq-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('panel-' + mode).classList.add('active');
+  if (mode === 'detailed' && !chatStarted) initChat();
+}
+
+// ── BLOCK SPECS ──
+const BLOCK = {
+  '9inch': { h: 0.225, l: 0.45, price: 750 },
+  '6inch': { h: 0.225, l: 0.45, price: 550 },
+  '4inch': { h: 0.225, l: 0.45, price: 450 },
+};
+
+// ── FENCING CALCULATOR ──
+function calcFencing() {
+  const len   = parseFloat(document.getElementById('fenceLength').value) || 0;
+  const ht    = parseFloat(document.getElementById('fenceHeight').value) || 0;
+  const gate  = parseFloat(document.getElementById('gateWidth').value) || 0;
+  const bType = document.getElementById('fenceBlockType').value;
+  if (!len || !ht) return;
+  const spec = BLOCK[bType];
+  const effectiveLen = Math.max(0, len - gate);
+  const blocks = Math.ceil((effectiveLen * ht / (spec.h * spec.l)) * 1.05);
+  const cement = Math.ceil(blocks / 50);
+  const sand   = +(cement * 0.15).toFixed(1);
+  document.getElementById('f-blocks').textContent = blocks.toLocaleString();
+  document.getElementById('f-cement').textContent = cement;
+  document.getElementById('f-sand').textContent   = sand;
+  document.getElementById('f-cost').textContent   = '₦' + (blocks * spec.price).toLocaleString();
+  document.getElementById('fence-note').textContent = '// Rough estimate · 5% waste included';
+}
+
+// ── BUILDING ROUGH CALCULATOR ──
+const BLDG = {
+  '1bed_bungalow':  { floors:1, wf:28, cf:0.9,  sf:0.06, gf:0.05  },
+  '2bed_bungalow':  { floors:1, wf:30, cf:1.0,  sf:0.07, gf:0.06  },
+  '3bed_bungalow':  { floors:1, wf:32, cf:1.1,  sf:0.07, gf:0.065 },
+  '4bed_bungalow':  { floors:1, wf:34, cf:1.2,  sf:0.08, gf:0.07  },
+  '2bed_duplex':    { floors:2, wf:30, cf:1.3,  sf:0.09, gf:0.08  },
+  '3bed_duplex':    { floors:2, wf:32, cf:1.4,  sf:0.10, gf:0.09  },
+  '4bed_duplex':    { floors:2, wf:34, cf:1.5,  sf:0.11, gf:0.10  },
+  'terrace':        { floors:2, wf:28, cf:1.4,  sf:0.10, gf:0.09  },
+  'apartment_4':    { floors:2, wf:36, cf:1.8,  sf:0.12, gf:0.11  },
+  'apartment_6':    { floors:3, wf:36, cf:2.4,  sf:0.16, gf:0.14  },
+  'commercial':     { floors:1, wf:22, cf:1.5,  sf:0.10, gf:0.12  },
+  'warehouse':      { floors:1, wf:18, cf:1.2,  sf:0.08, gf:0.10  },
+};
+
+function calcBuilding() {
+  const bType  = document.getElementById('bldType').value;
+  const plot   = parseFloat(document.getElementById('plotSize').value) || 0;
+  const blkT   = document.getElementById('bldBlockType').value;
+  const fLen   = parseFloat(document.getElementById('bldFenceLen').value) || 0;
+  if (!bType || !plot) return;
+  const p = BLDG[bType];
+  const fa = plot * 0.55 * p.floors;
+  let blocks = Math.ceil(fa * p.wf * 1.05);
+  if (fLen > 0) blocks += Math.ceil((fLen * 2.1 / (BLOCK[blkT].h * BLOCK[blkT].l)) * 1.05);
+  const cement  = Math.ceil(fa * p.cf * 14);
+  const sand    = Math.ceil(fa * p.sf * 10);
+  const granite = Math.ceil(fa * p.gf * 10);
+  document.getElementById('b-blocks').textContent  = blocks.toLocaleString();
+  document.getElementById('b-cement').textContent  = cement.toLocaleString();
+  document.getElementById('b-sand').textContent    = sand.toLocaleString();
+  document.getElementById('b-granite').textContent = granite.toLocaleString();
+  document.getElementById('b-cost').textContent    = '₦' + (blocks * BLOCK[blkT].price).toLocaleString();
+  document.getElementById('bld-note').textContent  = '// Rough estimate · ±30% · consult a professional';
+}
+
+// ── MODAL ──
+let currentQuoteMode = 'fencing';
+
+function openBoqGate(mode) {
+  currentQuoteMode = mode;
+  const blocks = mode === 'fencing'
+    ? document.getElementById('f-blocks').textContent
+    : document.getElementById('b-blocks').textContent;
+  if (blocks === '—') { alert('Please fill in your project details first.'); return; }
+  document.getElementById('boqModal').classList.add('open');
+}
+
+function closeModal() { document.getElementById('boqModal').classList.remove('open'); }
+
+function submitBOQ(e) {
+  e.preventDefault();
+  const name = e.target[0].value, phone = e.target[1].value, loc = e.target[2].value;
+  let details = currentQuoteMode === 'fencing'
+    ? `Fencing estimate:\n- Blocks: ${document.getElementById('f-blocks').textContent}\n- Cement: ${document.getElementById('f-cement').textContent} bags\n- Sand: ${document.getElementById('f-sand').textContent} tonnes`
+    : `Building estimate:\n- Blocks: ${document.getElementById('b-blocks').textContent}\n- Cement: ${document.getElementById('b-cement').textContent} bags\n- Sand: ${document.getElementById('b-sand').textContent} tonnes\n- Granite: ${document.getElementById('b-granite').textContent} tonnes`;
+  const msg = encodeURIComponent(`Hello Abuja Precast Concrete,\n\nName: ${name}\nPhone: ${phone}\nLocation: ${loc}\n\n${details}\n\nPlease send a formal quote. Thank you.`);
+  window.open(`https://wa.me/2348052353518?text=${msg}`, '_blank');
+  closeModal();
+}
+
+document.getElementById('boqModal').addEventListener('click', function(e) { if (e.target === this) closeModal(); });
+
+// ── CONTACT FORM ──
+function submitContact(e) {
+  e.preventDefault();
+  const name = e.target[0].value, phone = e.target[1].value, product = e.target[3].value;
+  const msg = encodeURIComponent(`Hello Abuja Precast Concrete,\n\nNew enquiry:\nName: ${name}\nPhone: ${phone}\nProduct: ${product}\n\nPlease get back to me. Thank you.`);
+  window.open(`https://wa.me/2348052353518?text=${msg}`, '_blank');
+}
+
+// ── AI CHAT ──
+let chatStarted  = false;
+let chatHistory  = [];
+let isTyping     = false;
+let msgCount     = 0;
+let pendingImage = null; // { base64, mimeType, name }
+const MAX_MSGS   = 12;
+
+function updateCounter() {
+  const remaining = Math.max(0, MAX_MSGS - msgCount);
+  document.getElementById('msgCounter').textContent = `${remaining} exchange${remaining !== 1 ? 's' : ''} remaining`;
+}
+
+function initChat() {
+  chatStarted = true;
+  chatHistory = [];
+  msgCount    = 0;
+  updateCounter();
+  const messages = document.getElementById('chatMessages');
+  messages.innerHTML = '';
+  addAIMessage("Hello! 👋 I'm the APCL AI Building Estimator.\n\nI can help you estimate blocks, cement, sand, and granite for your construction project — whether you have a plan or just an idea.\n\nWhat are you looking to build?");
+}
+
+function addAIMessage(text) {
+  const messages = document.getElementById('chatMessages');
+  const div = document.createElement('div');
+  div.className = 'msg ai';
+  // Basic markdown: bold, line breaks
+  const formatted = text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>');
+  div.innerHTML = `<div class="msg-avatar">🏗️</div><div class="msg-bubble">${formatted}</div>`;
+  messages.appendChild(div);
+  messages.scrollTop = messages.scrollHeight;
+}
+
+function addUserMessage(text) {
+  const messages = document.getElementById('chatMessages');
+  const div = document.createElement('div');
+  div.className = 'msg user';
+  div.innerHTML = `<div class="msg-bubble">${text}</div><div class="msg-avatar">👤</div>`;
+  messages.appendChild(div);
+  messages.scrollTop = messages.scrollHeight;
+}
+
+function showTyping() {
+  const messages = document.getElementById('chatMessages');
+  const div = document.createElement('div');
+  div.className = 'msg ai'; div.id = 'typing-ind';
+  div.innerHTML = `<div class="msg-avatar">🏗️</div><div class="typing-indicator"><div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div></div>`;
+  messages.appendChild(div);
+  messages.scrollTop = messages.scrollHeight;
+}
+
+function hideTyping() { const t = document.getElementById('typing-ind'); if (t) t.remove(); }
+
+async function sendChat() {
+  const input   = document.getElementById('chatInput');
+  const sendBtn = document.getElementById('chatSend');
+  const text    = input.value.trim();
+  if ((!text && !pendingImage) || isTyping) return;
+  if (!chatStarted) initChat();
+
+  if (msgCount >= MAX_MSGS) {
+    showLimitBanner();
+    return;
+  }
+
+  const displayText = text || (pendingImage ? `[Uploaded: ${pendingImage.name}]` : '');
+  addUserMessage(displayText);
+
+  const userContent = text || 'I have uploaded a building plan image. Please analyze it and help me estimate materials.';
+  chatHistory.push({ role: 'user', content: userContent });
+  msgCount++;
+  updateCounter();
+
+  input.value = '';
+  isTyping = true;
+  sendBtn.disabled = true;
+  input.disabled   = true;
+  showTyping();
+
+  try {
+    const body = {
+      messages: chatHistory,
+      ...(pendingImage && { imageBase64: pendingImage.base64, imageMimeType: pendingImage.mimeType })
+    };
+
+    // Clear pending image after sending
+    pendingImage = null;
+    document.getElementById('fileNameDisplay').textContent = '';
+    document.getElementById('planUpload').value = '';
+
+    const response = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+
+    const data = await response.json();
+    hideTyping();
+
+    if (data.error) {
+      addAIMessage(`Sorry, I ran into an issue: ${data.error}\n\nPlease try again or contact us directly on 08052353518.`);
+    } else {
+      chatHistory.push({ role: 'assistant', content: data.reply });
+      addAIMessage(data.reply);
+      if (data.limitReached) showLimitBanner();
+    }
+
+  } catch (err) {
+    hideTyping();
+    addAIMessage('Sorry — connection issue. Please try again or contact us directly:\n📞 08052353518\n💬 WhatsApp: 2348052353518');
+  }
+
+  isTyping        = false;
+  sendBtn.disabled = false;
+  input.disabled   = false;
+  input.focus();
+
+  if (msgCount >= MAX_MSGS) showLimitBanner();
+}
+
+function showLimitBanner() {
+  document.getElementById('limitBanner').style.display = 'block';
+  document.getElementById('chatInput').disabled  = true;
+  document.getElementById('chatSend').disabled   = true;
+  document.getElementById('chatStatus').textContent = '● Session ended';
+  document.getElementById('chatStatus').style.color = 'rgba(255,255,255,0.4)';
+}
+
+function handleFileUpload(input) {
+  if (!input.files || !input.files[0]) return;
+  const file = input.files[0];
+  const maxSize = 10 * 1024 * 1024; // 10MB
+  if (file.size > maxSize) { alert('File too large. Please upload an image under 10MB.'); input.value = ''; return; }
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const dataUrl = e.target.result;
+    const base64  = dataUrl.split(',')[1];
+    pendingImage  = { base64, mimeType: file.type, name: file.name };
+    document.getElementById('fileNameDisplay').textContent = '📎 ' + file.name + ' — ready to send';
+    if (!chatStarted) initChat();
+  };
+  reader.readAsDataURL(file);
+}
+
+// ── HAMBURGER ──
+let menuOpen = false;
+function toggleMenu() {
+  menuOpen = !menuOpen;
+  const links = document.querySelector('.nav-links');
+  if (menuOpen) {
+    links.style.cssText = 'display:flex;flex-direction:column;position:fixed;top:72px;left:0;right:0;background:rgba(0,32,96,0.98);padding:24px 5%;gap:24px;z-index:999;';
+  } else {
+    links.style.cssText = '';
+  }
+}
+</script>
+</body>
+</html>
