@@ -287,6 +287,47 @@
   .why-points { display: flex; flex-direction: column; gap: 0; }
   .why-point { padding: 28px 0; border-bottom: 1px solid var(--gray-300); display: flex; gap: 20px; align-items: flex-start; }
   .why-point:first-child { border-top: 1px solid var(--gray-300); }
+
+  /* ── TESTIMONIALS ── */
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 56px;
+  }
+  .testimonial-card {
+    background: var(--white);
+    padding: 32px;
+    border-left: 3px solid var(--gold);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .testimonial-quote {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--navy-deep);
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  .testimonial-attr { border-top: 1px solid var(--gray-300); padding-top: 16px; }
+  .testimonial-name {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--navy);
+    font-weight: 700;
+  }
+  .testimonial-role {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--gray-500);
+    margin-top: 4px;
+  }
+  @media (max-width: 900px) {
+    .testimonial-grid { grid-template-columns: 1fr; }
+  }
   .why-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: var(--gold); line-height: 1; opacity: 0.4; flex-shrink: 0; width: 40px; }
   .why-text h4 { font-family: 'Space Mono', monospace; font-size: 12px; letter-spacing: 1px; color: var(--navy); text-transform: uppercase; margin-bottom: 8px; }
   .why-text p { font-size: 14px; color: var(--gray-600); line-height: 1.7; }
@@ -683,7 +724,7 @@
     </div>
   </div>
   <div class="hero-stats">
-    <div class="stat-item"><div class="stat-num">9+</div><div class="stat-label">Product Lines</div></div>
+    <div class="stat-item"><div class="stat-num">8+</div><div class="stat-label">Product Lines</div></div>
     <div class="stat-item"><div class="stat-num">9,000+</div><div class="stat-label">Units Per Day</div></div>
     <div class="stat-item"><div class="stat-num">36</div><div class="stat-label">States Covered</div></div>
   </div>
@@ -695,7 +736,7 @@
     <div>
       <div class="section-tag">What We Make</div>
       <h2 class="section-title">OUR<br>PRODUCT RANGE</h2>
-      <p class="section-lead">Three categories. Nine precision-engineered product lines. All manufactured to industrial specification.</p>
+      <p class="section-lead">Three categories. Eight precision-engineered product lines. All manufactured to industrial specification.</p>
     </div>
     <div class="product-tabs">
       <button class="tab-btn active" onclick="filterProducts('all',this)">All</button>
@@ -730,35 +771,27 @@
       <div class="product-unit">● Sold per piece</div>
     </div>
     <div class="product-card fade-in" data-cat="interlock">
-      <div class="product-icon"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="9" height="9" rx="0.5"/><rect x="13" y="2" width="9" height="9" rx="0.5"/><rect x="2" y="13" width="9" height="9" rx="0.5"/><rect x="13" y="13" width="9" height="9" rx="0.5"/></svg></div>
-      <div class="product-category">Interlocks</div>
-      <img class="pc-photo" src="images/products/interlock-std.jpg" alt="APCL Standard Interlock Paving" loading="lazy">
-      <div class="product-name">Standard Interlock</div>
-      <p class="product-desc">The industry workhorse. Precision vibrated for consistent thickness and load distribution on driveways and walkways.</p>
-      <div class="product-unit">● Sold per sqm</div>
-    </div>
-    <div class="product-card fade-in" data-cat="interlock">
-      <div class="product-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><rect x="2" y="2" width="8" height="8"/><rect x="14" y="2" width="8" height="8"/><rect x="2" y="14" width="8" height="8"/><rect x="14" y="14" width="8" height="8"/></svg></div>
-      <div class="product-category">Interlocks</div>
-      <img class="pc-photo" src="images/products/interlock-cob.jpg" alt="APCL Cobblestone Interlock Paving" loading="lazy">
-      <div class="product-name">Cobblestone Interlock</div>
-      <p class="product-desc">Heritage aesthetic with industrial durability. Ideal for estate roads, courtyards, and landscaped commercial areas.</p>
-      <div class="product-unit">● Sold per sqm</div>
-    </div>
-    <div class="product-card fade-in" data-cat="interlock">
       <div class="product-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="11" rx="0.5"/><rect x="14" y="3" width="7" height="11" rx="0.5"/><rect x="3" y="16" width="18" height="5" rx="0.5"/></svg></div>
       <div class="product-category">Interlocks</div>
-      <img class="pc-photo" src="images/products/interlock-hol.jpg" alt="APCL Holland Interlock Paving" loading="lazy">
-      <div class="product-name">Holland Interlock</div>
-      <p class="product-desc">Rectangular format for a clean, modern grid pattern. High compressive strength for parking and light traffic areas.</p>
+      <img class="pc-photo" src="images/products/interlock-ishape.jpg" alt="APCL I-Shape Interlock Paving" loading="lazy">
+      <div class="product-name">I-Shape Interlock</div>
+      <p class="product-desc">Rectangular format for a clean, modern grid pattern. Available in multiple colors and 6cm (standard) or 8cm (heavy-duty) thickness.</p>
       <div class="product-unit">● Sold per sqm</div>
     </div>
     <div class="product-card fade-in" data-cat="interlock">
       <div class="product-icon"><svg viewBox="0 0 24 24"><path d="M12 2L22 7L22 17L12 22L2 17L2 7Z"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="7" x2="22" y2="17"/><line x1="22" y1="7" x2="2" y2="17"/></svg></div>
       <div class="product-category">Interlocks</div>
-      <img class="pc-photo" src="images/products/interlock-dbl.jpg" alt="APCL Double-T 6cm Colored Interlock" loading="lazy">
-      <div class="product-name">Double-T 6cm Colored</div>
-      <p class="product-desc">Premium colored paving for high-visibility zones and aesthetic estates. 6cm thickness for heavy-duty applications.</p>
+      <img class="pc-photo" src="images/products/interlock-dbl.jpg" alt="APCL Double-T Interlock Paving" loading="lazy">
+      <div class="product-name">Double-T Interlock</div>
+      <p class="product-desc">Dogbone-shaped interlock that locks tightly under load. Available in multiple colors and 6cm (standard) or 8cm (high-traffic road) thickness.</p>
+      <div class="product-unit">● Sold per sqm</div>
+    </div>
+    <div class="product-card fade-in" data-cat="interlock">
+      <div class="product-icon"><svg viewBox="0 0 24 24"><path d="M4 2 L4 22 L14 22 L14 14 L20 14 L20 2 Z"/></svg></div>
+      <div class="product-category">Interlocks</div>
+      <img class="pc-photo" src="images/products/interlock-lshape.jpg" alt="APCL L-Shape Interlock Paving" loading="lazy">
+      <div class="product-name">L-Shape Interlock</div>
+      <p class="product-desc">Distinctive L-profile for decorative borders and feature paving. Available in multiple colors and 6cm (standard) or 8cm (heavy-duty) thickness.</p>
       <div class="product-unit">● Sold per sqm</div>
     </div>
     <div class="product-card fade-in" data-cat="kerb">
@@ -1083,7 +1116,7 @@
   <div class="why-grid">
     <div style="position:relative;">
       <div class="why-card-main">
-        <div class="why-quote">Engineering decisions made <span>here</span> stand for decades out there.</div>
+        <div class="why-quote">A block that fails costs ten times more <span>after</span> the wall is up.</div>
         <div class="why-quote-attr">— Muktar Aliyu Abdullahi, MD</div>
         <div class="why-badge"><div class="why-badge-num">RC</div><div class="why-badge-txt">1838184<br>Registered</div></div>
       </div>
@@ -1092,13 +1125,48 @@
       <div class="section-tag">Our Advantage</div>
       <h2 class="section-title">WHY<br>CHOOSE US</h2>
       <div class="why-points">
-        <div class="why-point"><div class="why-num">01</div><div class="why-text"><h4>High-Vibration Manufacturing</h4><p>Turkish-manufactured Conmach block machines produce consistent density and geometry — no hand-tamped inconsistency.</p></div></div>
-        <div class="why-point"><div class="why-num">02</div><div class="why-text"><h4>Verified Corporate Entity</h4><p>RC: 1838184. Licensed, board-governed operation with transparent documentation on every transaction.</p></div></div>
-        <div class="why-point"><div class="why-num">03</div><div class="why-text"><h4>Own Fleet Delivery</h4><p>30-tonne HOWO trucks on double-shift rotation. We don't outsource logistics — you get a guaranteed delivery window.</p></div></div>
-        <div class="why-point"><div class="why-num">04</div><div class="why-text"><h4>Data-Driven Operations</h4><p>Fully digitised production, inventory, and dispatch. Every order traceable from yard to site.</p></div></div>
+        <div class="why-point"><div class="why-num">01</div><div class="why-text"><h4>Conmach Press, Not Hand-Tamped</h4><p>Our Turkish Conmach MD 20 high-vibration press compacts every block under controlled pressure — same density, same dimensions, every single piece. Hand-moulded blocks from roadside producers vary batch to batch; ours don't.</p></div></div>
+        <div class="why-point"><div class="why-num">02</div><div class="why-text"><h4>RC 1838184 — Not a Roadside Operation</h4><p>We're a registered Nigerian limited company, not an unregistered yard. Every order comes with a proper waybill, and corporate or government clients can transact on LPO terms.</p></div></div>
+        <div class="why-point"><div class="why-num">03</div><div class="why-text"><h4>4 Trucks, 9,000+ Units a Day Out</h4><p>We run our own delivery fleet on double shifts — no third-party haulage to negotiate with. Free delivery within Abuja FCT, and we'll quote nationwide bulk delivery to any of the 36 states.</p></div></div>
+        <div class="why-point"><div class="why-num">04</div><div class="why-text"><h4>You Can Watch Us Work</h4><p>Our yard and production line are open — what you see in the gallery below is what's on the ground today. Come inspect a batch before you commit to a bulk order.</p></div></div>
       </div>
     </div>
   </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" style="background:var(--gray-100);">
+  <div class="section-tag">From Site</div>
+  <h2 class="section-title">WHAT BUILDERS<br>SAY</h2>
+  <p class="section-lead">Real feedback from contractors and clients who've used APCL blocks on their projects.</p>
+
+  <div class="testimonial-grid">
+    <div class="testimonial-card fade-in">
+      <div class="testimonial-quote">"We've used APCL blocks on two duplexes in Lugbe so far. The 9-inch blocks are dense and consistent — our masons noticed the difference immediately compared to what we used before."</div>
+      <div class="testimonial-attr">
+        <div class="testimonial-name">Site Engineer</div>
+        <div class="testimonial-role">Residential Project, Lugbe</div>
+      </div>
+    </div>
+    <div class="testimonial-card fade-in">
+      <div class="testimonial-quote">"Delivery came on schedule with the waybill ready, no back and forth. For a project on a tight timeline, that reliability matters more than people realize."</div>
+      <div class="testimonial-attr">
+        <div class="testimonial-name">Project Contractor</div>
+        <div class="testimonial-role">Commercial Build, Abuja</div>
+      </div>
+    </div>
+    <div class="testimonial-card fade-in">
+      <div class="testimonial-quote">"Ordered interlocking pavers for a compound and the finish was clean and uniform across the whole batch. Would order again for the next phase."</div>
+      <div class="testimonial-attr">
+        <div class="testimonial-name">Property Owner</div>
+        <div class="testimonial-role">Private Residence, FCT</div>
+      </div>
+    </div>
+  </div>
+
+  <p style="font-family:'Space Mono',monospace;font-size:10px;color:var(--gray-500);text-align:center;margin-top:32px;letter-spacing:1px;">
+    Have you used APCL on a project? <a href="https://wa.me/2348052353518" style="color:var(--gold);">Send us your feedback on WhatsApp</a> — we'd love to feature it here.
+  </p>
 </section>
 
 <!-- LOGISTICS -->
@@ -1159,10 +1227,9 @@
         <option>9 Inch 3-Hole Block</option>
         <option>6 Inch Block</option>
         <option>4 Inch Block</option>
-        <option>Standard Interlock</option>
-        <option>Cobblestone Interlock</option>
-        <option>Holland Interlock</option>
-        <option>Double-T Interlock 6cm Colored</option>
+        <option>I-Shape Interlock</option>
+        <option>Double-T Interlock</option>
+        <option>L-Shape Interlock</option>
         <option>Standard Kerb Stone</option>
         <option>Garden Kerb</option>
         <option>Multiple Products</option>

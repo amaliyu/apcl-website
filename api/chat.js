@@ -15,8 +15,8 @@ Blocks (sold per piece):
 - 6 Inch Block — general walling and perimeter fencing  
 - 4 Inch Block — internal partitions
 
-Interlocks (sold per sqm):
-- Standard Interlock, Cobblestone Interlock, Holland Interlock, Double-T Interlock 6cm Colored
+Interlocks (sold per sqm, available in multiple colors, 6cm standard or 8cm heavy-duty/high-traffic thickness):
+- I-Shape Interlock, Double-T Interlock, L-Shape Interlock
 
 Kerb Stones (sold per linear metre):
 - Standard Kerb Stone, Garden Kerb
@@ -136,9 +136,12 @@ export default async function handler(req, res) {
         },
         contents,
         generationConfig: {
-          maxOutputTokens: 1024,
+          maxOutputTokens: 2048,
           temperature: 0.7,
           topP: 0.9,
+          thinkingConfig: {
+            thinkingBudget: 0
+          }
         },
         safetySettings: [
           { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_MEDIUM_AND_ABOVE' },
